@@ -7,12 +7,21 @@
 body{
     height: 100vh;
     display: grid;
-    grid-template-rows: 200px 1fr 50px;
-    padding: 70px 70px 70px 24px;
+    grid-template-rows: 100px 1fr 50px;
+    padding: 70px 70px 24px 70px;
     background-color: #f5cf06;
+    color: #8E4106;
+    font-family: 'Righteous', cursive;
 }
-header{
-    background-color: #f5cf06;
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.logo__text{
+    font-size: 32px;
+    font-weight: 400;
 }
 
 main{
